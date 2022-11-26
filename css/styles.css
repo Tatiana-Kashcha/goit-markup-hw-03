@@ -20,7 +20,18 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* header */
+
+.page-header {
+    /* outline прибрати потім в кінці верстки */
+    background-color: pink;
+}
 
 .logo {
     color: var(--primary-accent-color);
@@ -31,6 +42,9 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid cadetblue;
 }
 
 .logo-studio {
@@ -39,6 +53,11 @@ body {
 
 .navigation, .contact {
     list-style: none;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid cadetblue;
+    padding: 0;
+    margin: 0;
 }
 
 .navigation-link {
@@ -48,6 +67,9 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid cadetblue;
 }
 
 .navigation-link:hover, .navigation-link:focus {
@@ -65,6 +87,9 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid cadetblue;
 }
 
 .contact-link:hover, .contact-link:focus {
@@ -76,6 +101,10 @@ body {
 
 .hero {
     background-color: var(--hero-background-color);
+    text-align: center;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 .hero-title {
@@ -83,9 +112,13 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -99,12 +132,23 @@ body {
     line-height: 1.87;
     letter-spacing: 0.06em;
     font-family: inherit;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
+    min-width: 216px;
+    padding: 10px 32px;
 }
 
 .hero-btn:hover, .hero-btn:focus {
     background-color: var(--secondary-accent-color);
 }
 
+.advantage {
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
+    background-color: pink;
+}
+    
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -120,6 +164,9 @@ body {
 
 .advantage-list {
     list-style: none;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 .advantage-list-title {
@@ -129,28 +176,48 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 .advantage-list-descr {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
+.work {
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
+    background-color: antiquewhite;
+}
+    
 .work-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 .work-list, .team-list {
     list-style: none;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 .team {
     background-color: var(--secondary-background-color);
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 .team-title {
@@ -159,12 +226,18 @@ body {
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
  
 .team-item {
     background-color: var(--primary-background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 .team-list-title {
@@ -173,12 +246,18 @@ body {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 .team-list-descr {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 
@@ -238,6 +317,9 @@ body {
 
 .page-footer {
     background-color: var(--footer-background-color);
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 .page-footer .logo-studio {
@@ -246,10 +328,16 @@ body {
 
 .residence {
     font-style: normal;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 .residence-contact {
     list-style: none;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 .residence-descr {
@@ -258,6 +346,9 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 .residence-link {
@@ -266,6 +357,9 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;   
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 
