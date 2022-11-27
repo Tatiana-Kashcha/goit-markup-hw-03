@@ -20,6 +20,12 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+/* Глобальне скидання стилів по тегам*/
+h1, h2, h3, p, ul {
+    padding: 0;
+    margin: 0;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -31,6 +37,7 @@ body {
 .page-header {
     /* outline прибрати потім в кінці верстки */
     background-color: pink;
+    outline: 2px solid rebeccapurple;
 }
 
 .logo {
@@ -56,8 +63,6 @@ body {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid cadetblue;
-    padding: 0;
-    margin: 0;
 }
 
 .navigation-link {
@@ -102,9 +107,9 @@ body {
 .hero {
     background-color: var(--hero-background-color);
     text-align: center;
-
+    /* padding: 200px 0; */
     /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
+    outline: 2px solid rebeccapurple;
 }
 
 .hero-title {
@@ -117,7 +122,8 @@ body {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
-    margin: 0;
+    width: 696px;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 
@@ -145,7 +151,7 @@ body {
 
 .advantage {
     /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
+    outline: 2px solid rebeccapurple;
     background-color: pink;
 }
     
@@ -192,7 +198,7 @@ body {
 
 .work {
     /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
+    outline: 2px solid rebeccapurple;
     background-color: antiquewhite;
 }
     
@@ -217,7 +223,7 @@ body {
 .team {
     background-color: var(--secondary-background-color);
     /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
+    outline: 2px solid rebeccapurple;
 }
 
 .team-title {
@@ -319,7 +325,7 @@ body {
     background-color: var(--footer-background-color);
 
     /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
+    outline: 2px solid rebeccapurple;
 }
 
 .page-footer .logo-studio {
