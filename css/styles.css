@@ -26,6 +26,10 @@ h1, h2, h3, p, ul {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -38,6 +42,21 @@ h1, h2, h3, p, ul {
     /* outline прибрати потім в кінці верстки */
     background-color: pink;
     outline: 2px solid rebeccapurple;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.bloc-nav {
+    display: flex;
+}
+
+.bloc-nav .logo {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .logo {
@@ -63,6 +82,11 @@ h1, h2, h3, p, ul {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid cadetblue;
+    display: flex;
+}
+
+.navigation .item + .item {
+    margin-left: 50px;
 }
 
 .navigation-link {
@@ -75,6 +99,9 @@ h1, h2, h3, p, ul {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid cadetblue;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .navigation-link:hover, .navigation-link:focus {
@@ -85,6 +112,10 @@ h1, h2, h3, p, ul {
     color: var(--primary-accent-color);
 }
 
+.contact .item + .item {
+    margin-left: 50px;
+}
+    
 .contact-link {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -95,6 +126,9 @@ h1, h2, h3, p, ul {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid cadetblue;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .contact-link:hover, .contact-link:focus {
@@ -107,9 +141,10 @@ h1, h2, h3, p, ul {
 .hero {
     background-color: var(--hero-background-color);
     text-align: center;
-    /* padding: 200px 0; */
+
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid rebeccapurple;
+    padding: 200px 0;
 }
 
 .hero-title {
@@ -153,6 +188,9 @@ h1, h2, h3, p, ul {
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid rebeccapurple;
     background-color: pink;
+
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
     
 .visually-hidden {
@@ -200,6 +238,9 @@ h1, h2, h3, p, ul {
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid rebeccapurple;
     background-color: antiquewhite;
+
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
     
 .work-title {
@@ -224,6 +265,9 @@ h1, h2, h3, p, ul {
     background-color: var(--secondary-background-color);
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid rebeccapurple;
+
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team-title {
@@ -239,7 +283,9 @@ h1, h2, h3, p, ul {
  
 .team-item {
     background-color: var(--primary-background-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
     /* outline прибрати потім в кінці верстки */
@@ -271,6 +317,9 @@ h1, h2, h3, p, ul {
 
 .filter {
     list-style: none;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
 }
 
 .filter-btn {
@@ -283,16 +332,37 @@ h1, h2, h3, p, ul {
     letter-spacing: 0.03em;
     cursor: pointer;
     font-family: inherit;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid cadetblue;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 1px 2px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    min-width: 73px;
+    padding: 6px 22px;
 }
 
 .filter-btn:hover, .filter-btn:focus {
     color: var(--accent-text-color);
     background-color: var(--primary-accent-color);
-    border-color: var(--primary-accent-color);
+    border-color: transparent;
+    /* border-color: var(--primary-accent-color); */
 }
     
+.project {
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid rebeccapurple;
+    background-color: antiquewhite;
+
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+ 
 .project-list {
     list-style: none;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid cadetblue;
 }
 
 .project-container {
@@ -301,6 +371,9 @@ h1, h2, h3, p, ul {
 
 .project-link {
     text-decoration: none;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid cadetblue;
 }
 
 .project-list-title {
@@ -309,6 +382,9 @@ h1, h2, h3, p, ul {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid cadetblue;
 }
 
 .project-list-descr {
@@ -316,6 +392,9 @@ h1, h2, h3, p, ul {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+
+    /* outline прибрати потім в кінці верстки */
+     outline: 2px solid cadetblue;
 }
 
 
