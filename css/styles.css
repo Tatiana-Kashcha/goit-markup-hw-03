@@ -77,12 +77,13 @@ img {
     color: var(--secondary-text-color);
 }
 
-.navigation, .contact {
+.navigation {
     list-style: none;
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid cadetblue;
     display: flex;
+    margin-left: 93px;
 }
 
 .navigation .item + .item {
@@ -110,6 +111,15 @@ img {
 
 .navigation-link.current {
     color: var(--primary-accent-color);
+}
+
+.contact {
+    list-style: none;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid cadetblue;
+    display: flex;
+    margin-left: auto;
 }
 
 .contact .item + .item {
@@ -211,6 +221,11 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
+    display: flex;
+}
+
+.advantage-list .item + .item {
+    margin-left: 30px;
 }
 
 .advantage-list-title {
@@ -223,6 +238,7 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
+    margin-bottom: 10px;
 }
 
 .advantage-list-descr {
@@ -252,13 +268,21 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.work-list, .team-list {
+.work-list {
     list-style: none;
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
+    display: flex;
+    align-items: center;
+}
+
+.work-list .item + .item {
+    margin-left: 30px;
 }
 
 .team {
@@ -281,6 +305,13 @@ img {
     outline: 2px solid tomato;
 }
  
+.team-list {
+    list-style: none;
+
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid tomato;
+}
+
 .team-item {
     background-color: var(--primary-background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
