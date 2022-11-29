@@ -12,6 +12,9 @@
     --hero-background-color:#2F303A;
     --footer-background-color: #2F303A;
     --project-border-color: #EEEEEE;
+
+    --card-set-gap: 30px;
+
 }
 
 body {
@@ -27,7 +30,9 @@ h1, h2, h3, p, ul {
 }
 
 img {
-    display: block;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -278,7 +283,7 @@ img {
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .work-list .item + .item {
@@ -303,6 +308,8 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
+    text-align: center;
+    margin-bottom: 50px;
 }
  
 .team-list {
@@ -310,6 +317,8 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
+    display: flex;
+    justify-content: space-between;
 }
 
 .team-item {
@@ -321,6 +330,11 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
+    text-align: center;
+}
+
+.team-item + .team-item {
+   margin-left: 30px; 
 }
 
 .team-list-title {
@@ -332,6 +346,8 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .team-list-descr {
@@ -341,6 +357,7 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
+    margin-bottom: 30px;
 }
 
 
@@ -397,7 +414,7 @@ img {
 }
 
 .project-container {
-    border: 1px solid var(--project-border-color);
+    
 }
 
 .project-link {
@@ -405,6 +422,13 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid cadetblue;
+}
+
+.project-card {
+    border: 1px solid var(--project-border-color);
+
+     /* outline прибрати потім в кінці верстки */
+     outline: 2px solid blue;
 }
 
 .project-list-title {
@@ -442,6 +466,16 @@ img {
     color: var(--accent-text-color);
 }
 
+.footer-contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-contact .logo {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
 .residence {
     font-style: normal;
 
@@ -454,6 +488,11 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
+    display: inline-block;
+}
+
+.residence-contact .item + .item {
+    margin-top: 9px;
 }
 
 .residence-descr {
