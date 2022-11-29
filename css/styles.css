@@ -61,7 +61,6 @@ img {
 .bloc-nav .logo {
     display: block;
     padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .logo {
@@ -504,6 +503,7 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
+    display: block;
 }
 
 .residence-link {
@@ -515,6 +515,7 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
+    display: block;
 }
 
 
