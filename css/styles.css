@@ -24,7 +24,7 @@ body {
 }
 
 /* Глобальне скидання стилів по тегам*/
-h1, h2, h3, p, ul {
+h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0;
     margin: 0;
 }
@@ -367,6 +367,13 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid tomato;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.filter .item + .item {
+    margin-left: 8px;
 }
 
 .filter-btn {
