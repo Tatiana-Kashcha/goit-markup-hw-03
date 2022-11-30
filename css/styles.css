@@ -8,14 +8,13 @@
     --secondary-accent-color: #188CE8;
     --primary-background-color: #FFFFFF;
     --secondary-background-color: #F5F4FA;
-    /* пізніше буде інший колір у hero, тому своя var*/
+    
     --hero-background-color:#2F303A;
     --footer-background-color: #2F303A;
     --header-border-color: #ECECEC; 
     --project-border-color: #EEEEEE;
 
     --project-card-set-gap: 30px;
-
 }
 
 body {
@@ -50,10 +49,6 @@ img {
 /* header */
 
 .page-header {
-    /* outline прибрати потім в кінці верстки */
-    background-color: pink;
-    outline: 2px solid rebeccapurple;
-
     border-bottom: 1px solid var(--header-border-color);
 }
 
@@ -81,9 +76,6 @@ img {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid cadetblue;
 }
 
 .logo-studio {
@@ -93,8 +85,6 @@ img {
 .navigation {
     list-style: none;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid cadetblue;
     display: flex;
     margin-left: 93px;
 }
@@ -111,8 +101,6 @@ img {
     letter-spacing: 0.02em;
     text-decoration: none;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid cadetblue;
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -129,8 +117,6 @@ img {
 .contact {
     list-style: none;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid cadetblue;
     display: flex;
     margin-left: auto;
 }
@@ -147,8 +133,6 @@ img {
     letter-spacing: 0.02em;
     text-decoration: none;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid cadetblue;
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -165,8 +149,6 @@ img {
     background-color: var(--hero-background-color);
     text-align: center;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid rebeccapurple;
     padding: 200px 0;
 }
 
@@ -178,8 +160,6 @@ img {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     width: 696px;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -197,8 +177,6 @@ img {
     letter-spacing: 0.06em;
     font-family: inherit;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     min-width: 216px;
     padding: 10px 32px;
 }
@@ -206,18 +184,7 @@ img {
 .hero-btn:hover, .hero-btn:focus {
     background-color: var(--secondary-accent-color);
 }
-
-
-/* прибрати потім, назва змінюється на section*/
-.advantage {
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid rebeccapurple;
-    background-color: pink;
-
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-    
+   
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -234,8 +201,6 @@ img {
 .advantage-list {
     list-style: none;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     display: flex;
 }
 
@@ -251,8 +216,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     margin-bottom: 10px;
 }
 
@@ -260,22 +223,8 @@ img {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
 }
-
-
-/* прибрати потім, назва змінюється на section*/
-.work {
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid rebeccapurple;
-    background-color: antiquewhite;
-
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-    
+   
 .work-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -283,8 +232,6 @@ img {
     line-height: 1.16;
     letter-spacing: 0.03em;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -292,8 +239,6 @@ img {
 .work-list {
     list-style: none;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     display: flex;
     justify-content: space-between;
 }
@@ -302,15 +247,8 @@ img {
     margin-left: 30px;
 }
 
-
-/* прибрати потім, назва змінюється на section*/
 .team {
     background-color: var(--secondary-background-color);
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid rebeccapurple;
-
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .team-title {
@@ -320,8 +258,6 @@ img {
     line-height: 1.16;
     letter-spacing: 0.03em;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -329,8 +265,6 @@ img {
 .team-list {
     list-style: none;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     display: flex;
     justify-content: space-between;
 }
@@ -342,8 +276,6 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     text-align: center;
 }
 
@@ -358,8 +290,6 @@ img {
     line-height: 1.18;
     letter-spacing: 0.03em;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     margin-top: 30px;
     margin-bottom: 10px;
 }
@@ -369,8 +299,6 @@ img {
     line-height: 1.18;
     letter-spacing: 0.03em;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     margin-bottom: 30px;
 }
 
@@ -380,8 +308,6 @@ img {
 .filter {
     list-style: none;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -402,8 +328,7 @@ img {
     cursor: pointer;
     font-family: inherit;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid cadetblue;
+    border-color: transparent;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
     0px 1px 2px rgba(0, 0, 0, 0.08), 
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -414,25 +339,10 @@ img {
 .filter-btn:hover, .filter-btn:focus {
     color: var(--accent-text-color);
     background-color: var(--primary-accent-color);
-    border-color: transparent;
-}
-
-
-/* прибрати потім, назва змінюється на section*/
-.project {
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid rebeccapurple;
-    background-color: antiquewhite;
-
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .project-list {
     list-style: none;
-
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid cadetblue;
 
     display: flex;
     flex-wrap: wrap;
@@ -449,16 +359,12 @@ img {
 .project-link {
     text-decoration: none;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid cadetblue;
     display: block;
 }
 
 .project-card {
     border: 1px solid var(--project-border-color);
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid blue;
     padding: 20px 24px;
 }
 
@@ -469,8 +375,6 @@ img {
     line-height: 2;
     letter-spacing: 0.06em;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid cadetblue;
     margin-bottom: 4px;
 }
 
@@ -479,10 +383,6 @@ img {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid cadetblue;
-    
 }
 
 
@@ -490,9 +390,6 @@ img {
 
 .page-footer {
     background-color: var(--footer-background-color);
-
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid rebeccapurple;
 }
 
 .page-footer .logo-studio {
@@ -511,16 +408,11 @@ img {
 
 .residence {
     font-style: normal;
-
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
 }
 
 .residence-contact {
     list-style: none;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     display: inline-block;
 }
 
@@ -535,8 +427,6 @@ img {
     letter-spacing: 0.03em;
     text-decoration: none;
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     display: block;
 }
 
@@ -547,8 +437,6 @@ img {
     letter-spacing: 0.03em;
     text-decoration: none;   
 
-    /* outline прибрати потім в кінці верстки */
-    outline: 2px solid tomato;
     display: block;
 }
 
