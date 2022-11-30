@@ -11,6 +11,7 @@
     /* пізніше буде інший колір у hero, тому своя var*/
     --hero-background-color:#2F303A;
     --footer-background-color: #2F303A;
+    --header-border-color: #ECECEC; 
     --project-border-color: #EEEEEE;
 
     --card-set-gap: 30px;
@@ -47,6 +48,7 @@ img {
     /* outline прибрати потім в кінці верстки */
     background-color: pink;
     outline: 2px solid rebeccapurple;
+    border-bottom: 1px solid var(--header-border-color);
 }
 
 .main-nav {
@@ -61,6 +63,7 @@ img {
 .bloc-nav .logo {
     display: block;
     padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .logo {
@@ -400,7 +403,6 @@ img {
     color: var(--accent-text-color);
     background-color: var(--primary-accent-color);
     border-color: transparent;
-    /* border-color: var(--primary-accent-color); */
 }
     
 .project {
