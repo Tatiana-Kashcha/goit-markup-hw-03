@@ -14,7 +14,7 @@
     --header-border-color: #ECECEC; 
     --project-border-color: #EEEEEE;
 
-    --card-set-gap: 30px;
+    --project-card-set-gap: 30px;
 
 }
 
@@ -433,10 +433,17 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid cadetblue;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--project-card-set-gap));
+    margin-top: calc(-1 * var(--project-card-set-gap));
 }
 
 .project-container {
-    
+    flex-basis: calc(100% /3 - var(--project-card-set-gap));
+    margin-left: var(--project-card-set-gap);
+    margin-top: var(--project-card-set-gap);
 }
 
 .project-link {
@@ -444,13 +451,15 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid cadetblue;
+    display: block;
 }
 
 .project-card {
     border: 1px solid var(--project-border-color);
 
-     /* outline прибрати потім в кінці верстки */
-     outline: 2px solid blue;
+    /* outline прибрати потім в кінці верстки */
+    outline: 2px solid blue;
+    padding: 20px 24px;
 }
 
 .project-list-title {
@@ -462,6 +471,7 @@ img {
 
     /* outline прибрати потім в кінці верстки */
     outline: 2px solid cadetblue;
+    margin-bottom: 4px;
 }
 
 .project-list-descr {
@@ -471,7 +481,8 @@ img {
     letter-spacing: 0.03em;
 
     /* outline прибрати потім в кінці верстки */
-     outline: 2px solid cadetblue;
+    outline: 2px solid cadetblue;
+    
 }
 
 
