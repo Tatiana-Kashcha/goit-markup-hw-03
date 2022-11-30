@@ -177,6 +177,8 @@ img {
     letter-spacing: 0.06em;
     font-family: inherit;
 
+    border-color: transparent;
+    
     min-width: 216px;
     padding: 10px 32px;
 }
